@@ -172,7 +172,7 @@
         background: #7387e9;
         display: flex;
         justify-content: center;
-
+        margin-bottom: 40px;
     }
 
     .up a:hover {
@@ -228,7 +228,6 @@
 
     .imagem {
         width: 100%;
-        height: auto;
         margin-top: 20px;
     }
 
@@ -246,10 +245,15 @@
         width: 40px;
     }
 
+    .up {
+        margin-bottom: 30px;
+    }
+
     .up1 {
         width: 50px;
         height: 20px;
         font-size: 12px;
         border-radius: 8px;
+        margin-bottom: 30px;
     }
 }
