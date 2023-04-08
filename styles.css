@@ -1,0 +1,255 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    header {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .tenso {
+    
+        width: 300px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+   
+
+    h1 {
+        text-align: center;
+        margin-top: 50px;
+        font-weight: bolder;
+        font-style: italic;
+        font-size: 40px;
+    }
+
+    .barra {
+        width: 100vw;
+        height: 50px;
+        background: blue;
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        text-align: center;
+        margin-top: 40px;
+
+    }
+
+    .buttom {
+        border-radius: 10px;
+        font-weight: bolder;
+        padding: 10px;
+        margin: 0px 5px 0px;
+        cursor: pointer;
+        background: #7387e9;
+    }
+
+    .menu :hover {
+        background: black;
+        color: red;
+        transition: 0.8s;
+    }
+
+    .galeria {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img {
+        margin-left: 20px;
+        margin-top: 30px;
+        background: #7387e9;
+        width: 200px;
+        height: 300px;
+        border-radius: 10px;
+        margin: 15px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+
+
+
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        font: italic;
+    }
+
+    .sobre {
+        text-align: center;
+    }
+
+    .texto {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .central {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .imagem {
+        margin-left: 20px;
+        margin-top: 30px;
+        background: #7387e9;
+        width: 200px;
+        height: 300px;
+        border-radius: 10px;
+        margin: 15px;
+        text-align: center;
+
+    }
+
+
+
+    .rede {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        gap: 10px;
+    }
+
+    .rede img {
+        height: 35px;
+        width: 35px;
+        border-radius: 20px;
+    }
+
+    .rede a {
+        background: black;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+    }
+
+    .rede a:hover {
+        transform: scale(1.3);
+        transition: 0.5s;
+    }
+
+
+    .up {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+
+
+    }
+
+    .up1 {
+        width: 60px;
+        height: 25px;
+        border-radius: 10px;
+        background: #7387e9;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .up a:hover {
+        background: black;
+        color: red;
+        transition: 0.5s;
+    }
+
+@media (max-width: 600px) {
+
+    .central {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .galeria {
+        padding: 0 20px;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .sobre {
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .barra {
+        height: 40px;
+    }
+
+    .menu {
+        margin-top: 20px;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .imagem {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .rede {
+        margin-top: 20px;
+    }
+
+    .rede img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .rede a {
+        height: 40px;
+        width: 40px;
+    }
+
+    .up1 {
+        width: 50px;
+        height: 20px;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+}
